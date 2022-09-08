@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="37.8280756612599" y="520.8538368060442">ru.stqa.pft.addressbook.tests.GroupCreationTests</node>
+    <node x="461.49474232792653" y="466.33333333333337">ru.stqa.pft.addressbook.appmanager.SessionHelper</node>
+    <node x="-198.70934987626993" y="503.51676359667846">ru.stqa.pft.addressbook.tests.GroupDeletionTest</node>
+    <node x="81.82807566125985" y="313.9999999999999">ru.stqa.pft.addressbook.appmanager.ApplicationManager</node>
+    <node x="-190.0770516433072" y="401.8153795367001">ru.stqa.pft.addressbook.tests.TestBase</node>
+    <node x="445.49474232792636" y="392.0">ru.stqa.pft.addressbook.appmanager.NavigationHelper</node>
+    <node x="440.1614089945932" y="313.9999999999999">ru.stqa.pft.addressbook.appmanager.GroupHelper</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.stqa.pft.addressbook.appmanager.ApplicationManager" target="ru.stqa.pft.addressbook.appmanager.GroupHelper" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="368.82807566125985" y="373.9999999999999" />
+      <point x="368.82807566125985" y="340.9999999999999" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.stqa.pft.addressbook.tests.GroupCreationTests" target="ru.stqa.pft.addressbook.tests.TestBase" relationship="GENERALIZATION">
+      <point x="-90.00040899459327" y="-1.701393776158966E-4" />
+      <point x="27.66666666666663" y="535.3536666666666" />
+      <point x="27.66666666666663" y="428.81499999999994" />
+      <point x="90.00038497664052" y="-3.795367001515615E-4" />
+    </edge>
+    <edge source="ru.stqa.pft.addressbook.appmanager.NavigationHelper" target="ru.stqa.pft.addressbook.appmanager.ApplicationManager" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.stqa.pft.addressbook.tests.GroupDeletionTest" target="ru.stqa.pft.addressbook.tests.TestBase" relationship="GENERALIZATION">
+      <point x="87.50034987626994" y="-9.693001186406036E-5" />
+      <point x="27.66666666666663" y="518.0166666666667" />
+      <point x="27.66666666666663" y="428.81499999999994" />
+      <point x="90.00038497664052" y="-3.795367001515615E-4" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="false" x="228.49474232792653" y="390.3333333333333" />
+  <SelectedNodes>
+    <node>ru.stqa.pft.addressbook.appmanager.ApplicationManager</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
